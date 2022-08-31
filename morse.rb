@@ -9,7 +9,7 @@ def mouse(mourse_code)
   mourse_code
     .split('   ')
     .map do |item|
-      item.split().map { |char| codes[char] }.join
+      item.split.map { |char| codes[char] }.join
     end
     .join(' ')
 end
