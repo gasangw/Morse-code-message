@@ -1,5 +1,5 @@
-def decod_char(char)
-  morse_codes = {
+def decode_char(code)
+  characters = {
     '.-': 'A',
     '-...': 'B',
     '-.-.': 'C',
@@ -25,29 +25,38 @@ def decod_char(char)
     '.--': 'W',
     '-..-': 'X',
     '-.--': 'Y',
-    '--..': 'Z'
+    '--..': 'Z',
+    '.----': '1',
+    '..---': '2',
+    '...--': '3',
+    '....-': '4',
+    '.....': '5',
+    '-....': '6',
+    '--...': '7',
+    '---..': '8',
+    '----.': '9',
+    '-----': '0'
   }
 
-  morse_codes.each do |key, value|
-    return value if key == char
-  end
+  characters[code.to_sym]
 end
 
-def decod_word(character)
+def decode_word(words)
   word = ''
-  character.chars.each do |char|
-    word += decod_char(char)
+  words.split(' ').each do |code|
+    word += decode_char(code)
   end
+  word
 end
 
-def decoding(character)
+def decrypt(ciphered)
   sentence = ''
-  character.split('   ').each do |word|
-    sentence += decod_word(word).to_s
+  ciphered.split('  ').each do |word|
+    sentence += "#{decode_word(word)} "
   end
+  puts sentence
+
   puts sentence
 end
 
-decod_char('.-')
-decod_word('-- -.--')
-decoding('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+decrypt('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
