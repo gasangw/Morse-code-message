@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+-Install ruby.
 
 ### Prerequisites
 
@@ -35,20 +35,20 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Gasangwa Thomas**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/gasangw)
+- Twitter: [@twitterhandle](https://twitter.com/ThomasGasangwa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gasangwa-thomas-84197222a/)
 
 👤 **Alphonce Mobutu**
 
-- GitHub: [@githubhandle](https://github.com/gasangw/Morse-code-message.git)
+- GitHub: [@githubhandle](https://github.com/tingamapuro04)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/adoyo-alphonce/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/gasangw/Morse-code-message/issues).
 
 ## Show your support
 
