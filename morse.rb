@@ -41,6 +41,10 @@ def decode_char(code)
   characters[code.to_sym]
 end
 
+def decode_letter(code, dict: decode_char(code))
+  dict[code] ? dict[code].upcase : ''
+end
+
 def decode_word(ciphered)
   word = ''
   ciphered.split.each do |code|
