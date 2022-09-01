@@ -9,9 +9,6 @@
 ## Built With
 
 - Ruby
-- Frameworks
-- Technologies used
-
 
 ## Getting Started
 
